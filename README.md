@@ -11,7 +11,11 @@ Features:
 - Choose of cipher;
 - IPv6 support.
 
-Usage: ./openvpnsetup.sh 
+`chmod +x openvpnsetup.sh`
+
+`./openvpnsetup.sh `
+
+
 
 Before enabling IPv6 support ensure that your machine have IPv6 address.
 Note: iptables rule allow port 22 tcp (ssh) by default, if you have sshd on another port modify script before execution.
